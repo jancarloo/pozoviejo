@@ -10,9 +10,81 @@
     </div> </div>   
 
 	
+	
+	
+	<div class="container_styled_1">
+        <div class="container margin_60">
+            <div class="row">
+                <div class="col-lg-12">
+                    <figure class="room_pic">  
+					
+					
+					
+        <div class="col-lg-12">  
+            <div id="sub_content"> 
+                <div id="book_container">
+                    <form method="post" action="assets/check_avail_home.php" id="check_avail_home" autocomplete="off">
+                        <div id="group_1">
+                            <div id="container_1">
+                                <h4 style="color:white;">Llegada</h4>
+                            	<input class="startDate1 form-control datepick" type="text" data-field="date" data-startend="start" data-startendelem=".endDate1" readonly placeholder="Arrival" id="check_in" name="check_in">
+                            </div>
+                            <div id="container_2">
+                                <h4 style="color:white;">Salida</h4>
+                                 <input class="endDate1 form-control datepick" type="text" data-field="date" data-startend="end" data-startendelem=".startDate1" readonly placeholder="Departure" id="check_out" name="check_out">
+                            </div>
+                        </div><!-- End group_1 -->
+                        <div id="group_2">
+                            <div id="container_3">
+                                <h4 style="color:white;">Adultos</h4>
+                                <div class="qty-buttons">
+                                    <input type="button" value="-" class="qtyminus" name="adults">
+                                    <input type="text" name="adults" id="adults" value="" class="qty form-control" placeholder="0">
+                                    <input type="button" value="+" class="qtyplus" name="adults">
+                                </div>
+                            </div>
+                            <div id="container_4">
+                                <h4 style="color:white;">Niños</h4>
+                                <div class="qty-buttons">
+                                    <input type="button" value="-" class="qtyminus" name="children">
+                                    <input type="text" name="children" id="children" value="" class="qty form-control" placeholder="0">
+                                    <input type="button" value="+" class="qtyplus" name="children">
+                                </div>
+                            </div>
+                        </div><!-- End group_2 -->
+                        <div id="group_3">
+                            <div id="container_5">
+                                <h4 style="color:white;">Nombre</h4>
+                                <input type="text" class="form-control" name="name_booking" id="name_booking" placeholder="Nombres">
+                            </div>
+                            <div id="container_6">
+                                <h4 style="color:white;">Email</h4>
+                                <input type="text" class="form-control" name="email_booking" id="email_booking" placeholder="email">
+                            </div>
+                        </div><!-- End group_3 -->
+                        <div id="container_7">
+                            <input type="submit" value="Check availability" class="btn_1" id="submit-booking">
+                        </div>
+                    </form>
+                </div><!-- End book_container -->
+            </div><!-- End sub_content -->
+        </div><!-- End subheader -->
+					
+					
+					</figure>
+                </div>
+                <div class="col-md-4 col-md-offset-1">
+                    
+                </div>
+            </div><!-- End row -->
+        </div><!-- End container -->
+    </div><!-- End container_styled_1 -->
+	
+	
+	
 	<!-- SubHeader =============================================== -->
-    <div class="row"><div class="" id="booking" >
-        <div class="col-md-offset-1">  
+    <div class="row">;<div class="" id="booking" >
+        <div class="col-sm-10 col-md-offset-3">  
             <div id="sub_content"> 
                 <div id="book_container">
                     <form method="post" action="assets/check_avail_home.php" id="check_avail_home" autocomplete="off">
@@ -68,16 +140,15 @@
 	
 	<hr>
 	
-    <div class="row"><div class="container_styled_1">
+    <div class="container_styled_1">
         <h1 class="main_title"><em></em>Bienvenido a Pozo Viejo <span>Hotel, cama y desayuno</span></h1>
         <p class="lead styled">
             ¿Qué te parece pasar un fin de semana, fecha especial o vacaciones con nosotros?
 			Nuestra mayor satisfacción será poder atenderte.
 			¡Los esperamos!
         </p>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="mosaic_container">
+            <div class="col-sm-6 ">
+                <div class="mosaic_container ">
                     <img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/glorieta.jpg" alt="" class="img-responsive add_bottom_30"><span class="caption_2">Al aire libre</span>
                 </div>
             </div>
@@ -99,7 +170,6 @@
                 </div>
             </div>
         </div><!-- End row -->
-    </div></div><!-- End container -->
     
     <div class="container_styled_1">
         <div class="container margin_60">

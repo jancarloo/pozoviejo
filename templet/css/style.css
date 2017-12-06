@@ -460,14 +460,14 @@ input#email_newsletter_2.form-control{
 }
 .mosaic_container .caption_2{
 	position:absolute;
-	left:0;
+	left:20;
 	bottom:0;
-	width:100%;
+	width:70%;
 	z-index:9;
 	background: url(../img/shadow.png) repeat-x left bottom;
 	display:block;
 	font-size:18px;
-	padding:10px 15px;
+	padding:2px 8px;
 	color:#fff;
 	line-height:1.2;
 }
