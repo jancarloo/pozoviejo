@@ -5,13 +5,13 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="hotel, bed and breakfast, accommodations, travel, motel">
-    <meta name="description" content="Albert - Hotel and Bed&amp;Breakfast">
+    <meta name="keywords" content="hotel, Cama y desayuno, alojamiento, viaje, motel">
+    <meta name="description" content="Hotel Pozo Viejo">
     <meta name="author" content="Ansonika">
-    <title>Hotel Pozo Viejo</title>
+    <title>Hotel Pozo Viejo</title> 
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" type="image/x-icon" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/apple-touch-icon-114x114-precomposed.png">
@@ -66,10 +66,11 @@
                     <li class="submenu">
 						<a href="<?php echo RUTA_ACTUAL; ?>" class="show-submenu">Pozo Viejo</a>
                     </li>
-                   <li>
+					<li>
 						<a href="<?php echo RUTA_ACTUAL; ?>servicio">Servicios</a>
 					</li>
-                    <?php /* <li class="submenu">
+					<?php /*
+                     <li class="submenu">
 						<a href="javascript:void(0);" class="show-submenu">Restaurante</a>                   
                     </li>
 					<li>

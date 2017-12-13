@@ -95,11 +95,11 @@
     </div><!-- End Container -->
     </div><!-- End Container -->
 	
-     
-	 <section class="row">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.9090400567575!2d-97.58374418539923!3d19.843801286652088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85da970f1e3180a7%3A0xa62b0c68427a16ac!2sHotel+Restaurant+Pozo+Viejo!5e0!3m2!1ses-419!2smx!4v1511299019918" width="400" height="80" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="container_styled_1">
+        <div class="container margin_60"> 
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d938.2274076743048!2d-97.5818189!3d19.8437763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85da970f1e3180a7%3A0xa62b0c68427a16ac!2sHotel+Restaurant+Pozo+Viejo!5e0!3m2!1ses-419!2smx!4v1512835863526" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  </div></div>
 
-    </section><!-- End Container -->
 	<div id="toTop"></div><!-- Back to top button -->	
 	<div id="dtBox"></div><!-- End datepicker -->
 	

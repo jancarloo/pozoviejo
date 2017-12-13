@@ -460,9 +460,9 @@ input#email_newsletter_2.form-control{
 }
 .mosaic_container .caption_2{
 	position:absolute;
-	left:20;
+	left:40;
 	bottom:0;
-	width:70%;
+	width:60%;
 	z-index:9;
 	background: url(../img/shadow.png) repeat-x left bottom;
 	display:block;
