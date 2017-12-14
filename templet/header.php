@@ -52,7 +52,7 @@
         <div class="row">
             <div class="col--md-3 col-sm-3 col-xs-3">
                 <a href="<?php echo RUTA_ACTUAL; ?>">
-                <img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/2logo_pozo_inicio.png" width="180" height="95" alt="" data-retina="true">
+                <img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/2logo_pozo_inicio.png" width="170" height="88" alt="" data-retina="true">
                 </a>
             </div>
             <nav class="col--md-9 col-sm-9 col-xs-9">
@@ -60,8 +60,8 @@
             <div class="main-menu">
                 <div id="header_menu">
                      <img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/logo_m.png" width="141" height="40" alt="" data-retina="true">
-                </div><br><br><br>
-                <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#" class="open_close" id="close_in"><i class="icon_set_1_icon-77"></i></a>
+                </div><br><br> 
+                <a href="<?php echo RUTA_ACTUAL; ?>" class="open_close" id="close_in"><i class="icon_set_1_icon-77"></i></a>
                  <ul>
                     <li class="submenu">
 						<a href="<?php echo RUTA_ACTUAL; ?>" class="show-submenu">Pozo Viejo</a>
