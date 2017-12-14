@@ -27,11 +27,11 @@
                         <div id="group_1">
                             <div id="container_1">
                                 <h4 style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;Llegada</h4>
-                            	<input class="startDate1 form-control datepick" type="text" data-field="date" data-startend="start" data-startendelem=".endDate1" readonly placeholder="Arrival" id="check_in" name="check_in">
+                            	<input class="startDate1 form-control datepick" type="text" data-field="date" data-startend="start" data-startendelem=".endDate1" readonly placeholder="Llegada" id="check_in" name="check_in">
                             </div>
                             <div id="container_2">
                                 <h4 style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;Salida</h4>
-                                 <input class="endDate1 form-control datepick" type="text" data-field="date" data-startend="end" data-startendelem=".startDate1" readonly placeholder="Departure" id="check_out" name="check_out">
+                                 <input class="endDate1 form-control datepick" type="text" data-field="date" data-startend="end" data-startendelem=".startDate1" readonly placeholder="Salida" id="check_out" name="check_out">
                             </div>
                         </div><!-- End group_1 -->
                         <div id="group_2">
@@ -63,7 +63,7 @@
                             </div>
                         </div><!-- End group_3 -->
                         <div id="container_7">
-                            <input type="submit" value="Check availability" class="btn_1" id="submit-booking">
+                            <input type="submit" value="Verificar disponibilidad" class="btn_1" id="submit-booking">
                         </div>
                     </form>
                 </div><!-- End book_container -->

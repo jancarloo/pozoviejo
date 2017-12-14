@@ -17,31 +17,34 @@ $message_contact = $_POST['message_contact'];
 $verify_contact   = $_POST['verify_contact'];
 
 if(trim($name_contact) == '') {
-	echo '<div class="error_message">You must enter your Name.</div>';
+	echo '<div class="error_message">Debes ingresar tu nombre.</div>';
 	exit();
 } else if(trim($lastname_contact ) == '') {
-	echo '<div class="error_message">You must enter your Last name.</div>';
+	echo '<div class="error_message">Debes ingresar tu apellido.</div>';
 	exit();
 } else if(trim($email_contact) == '') {
-	echo '<div class="error_message">Please enter a valid email address.</div>';
+	echo '<div class="error_message">Por favor, introduce una dirección de correo electrónico válida
+.</div>';
 	exit();
 } else if(!isEmail($email_contact)) {
-	echo '<div class="error_message">You have enter an invalid e-mail address, try again.</div>';
+	echo '<div class="error_message">Has ingresado una dirección de correo electrónico no válida, intenta de nuevo.</div>';
 	exit();
 	} else if(trim($phone_contact) == '') {
-	echo '<div class="error_message">Please enter a valid phone number.</div>';
+	echo '<div class="error_message">Por favor ingrese un número de teléfono válido
+.</div>';
 	exit();
 } else if(!is_numeric($phone_contact)) {
-	echo '<div class="error_message">Phone number can only contain numbers.</div>';
+	echo '<div class="error_message">Por favor ingrese un número de teléfono válido.</div>';
 	exit();
 } else if(trim($message_contact) == '') {
-	echo '<div class="error_message">Please enter your message.</div>';
+	echo '<div class="error_message">Por favor ingrese su mensaje
+.</div>';
 	exit();
 } else if(!isset($verify_contact) || trim($verify_contact) == '') {
-	echo '<div class="error_message"> Please enter the verification number.</div>';
+	echo '<div class="error_message"> Por favor ingrese el número de verificación.</div>';
 	exit();
 } else if(trim($verify_contact) != '4') {
-	echo '<div class="error_message">The verification number you entered is incorrect.</div>';
+	echo '<div class="error_message">El número de verificación que ingresaste es incorrecto.</div>';
 	exit();
 }
 
@@ -51,40 +54,40 @@ if(get_magic_quotes_gpc()) {
 
 
 //$address = "HERE your email address";
-$address = "info@domain.com";
+$address = "juancarlos@comsis.mx";
 
 
 // Below the subject of the email
-$e_subject = 'You\'ve been contacted by ' . $name_contact . '.';
+$e_subject = 'Contactado por ' . $name_contact . ' de pagina web.';
 
 // You can change this if you feel that you need to.
-$e_body = "You have been contacted by $name_contact $lastname_contact with additional message is as follows." . PHP_EOL . PHP_EOL;
+$e_body = "Usted ha sido contactado por $name_contact $lastname_contact con el mensaje adicional siguiente." . PHP_EOL . PHP_EOL;
 $e_content = "\"$message_contact\"" . PHP_EOL . PHP_EOL;
-$e_reply = "You can contact $lastname_contact via email, $email_contact or via phone $phone_contact";
+$e_reply = "Tu puedes contactarlo a $lastname_contact via email, $email_contact o por telefono  $phone_contact";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
-$headers = "From: $email_contact" . PHP_EOL;
-$headers .= "Reply-To: $email_contact" . PHP_EOL;
+$headers = "De: $email_contact" . PHP_EOL;
+$headers .= "Responder a: $email_contact" . PHP_EOL;
 $headers .= "MIME-Version: 1.0" . PHP_EOL;
-$headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
+$headers .= "Tipo de contenido: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 $user = "$email_contact";
-$usersubject = "Thank You";
-$userheaders = "From: info@domain.com\n";
+$usersubject = "Gracias";
+$userheaders = "De: juancarlos@comsis.mx\n";
 $userheaders .= "MIME-Version: 1.0" . PHP_EOL;
-$userheaders .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
+$userheaders .= "Tipo de contenido: text/plain; charset=utf-8" . PHP_EOL;
 $userheaders .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
-$usermessage = "Thank you for contact Albert. We will reply shortly!";
+$usermessage = "Gracias por contactar a Hotel Pozo Viejo. Le responderemos en breve!";
 mail($user,$usersubject,$usermessage,$userheaders);
 
 if(mail($address, $e_subject, $msg, $headers)) {
 
 	// Success message
 	echo "<div id='success_page' style='padding:20px 0'>";
-	echo "<strong >Email Sent.</strong>";
-	echo "Thank you <strong>$name_contact</strong>,<br> your message has been submitted. We will contact you shortly.";
+	echo "<strong >Email Enviado. <br></strong>";
+	echo "Gracias <strong>$name_contact</strong>,<br> Su mensaje ha sido enviado. Nos pondremos en contacto con usted en breve.";
 	echo "</div>";
 
 } else {

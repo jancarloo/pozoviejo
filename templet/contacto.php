@@ -40,7 +40,7 @@
         	<div class="col-md-7 col-md-offset-1">
             
             <div id="message-contact"></div>
-				<form method="post" action="assets/contact.php" id="contactform">
+				<form method="post" action="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>assets/contact.php" id="contactform">
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
 							<div class="form-group">
@@ -92,14 +92,13 @@
             
              
         </div><!-- End row -->
-    </div><!-- End Container -->
-    </div><!-- End Container -->
-	
-    <div class="container_styled_1">
-        <div class="container margin_60"> 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d938.2274076743048!2d-97.5818189!3d19.8437763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85da970f1e3180a7%3A0xa62b0c68427a16ac!2sHotel+Restaurant+Pozo+Viejo!5e0!3m2!1ses-419!2smx!4v1512835863526" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div><!-- End Container --> </div><!-- End Container -->
+	<hr>
+    <div class="container">
+        <div class="container margin_60"> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3752.9090468327117!2d-97.58155500000001!3d19.843801000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa62b0c68427a16ac!2sHotel+Restaurant+Pozo+Viejo!5e0!3m2!1ses!2smx!4v1513290772496" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 	  </div></div>
 
 	<div id="toTop"></div><!-- Back to top button -->	
 	<div id="dtBox"></div><!-- End datepicker -->
+	
 	
